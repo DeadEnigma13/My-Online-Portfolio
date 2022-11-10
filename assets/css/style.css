@@ -1,5 +1,17 @@
 /* Font Awesome  */
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Nunito:wght@300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Nunito:wght@300&display=swap');
+
+.no-gutters .col {
+    padding-right: 0;
+    padding-left: 0;
+    height: 280px;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+    height: 280px;
+}
 
 /* Colours */
 
@@ -73,10 +85,15 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 15px;
     padding: 0;
-    width: 256px;
+    width: 288px;
+    height: 200px;
 }
 
 .menuitem {
@@ -93,7 +110,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 31px;
     display: block;
     color: #fafafa;
     font-size: 30px;
@@ -105,7 +122,7 @@ header {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     letter-spacing: 2.5px;
 }
