@@ -47,6 +47,22 @@
     background-color: #5e5e5e;
 }
 
+.bg-html {
+    background-color: rgb(255,140,25);
+}
+
+.bg-css {
+    background-color: #36931c;
+}
+
+.bg-js {
+    background-color: rgb(230,191,0);
+}
+
+.bg-python {
+    background: linear-gradient(to bottom right, blue 50%, rgb(230,191,0) 50%);
+}
+
 .row-table {
     display: table;
 }
@@ -308,7 +324,7 @@ footer {
     position: absolute;
     left: 0px;
     font-weight: 400;
-    padding: 11px 30px 2px 10px;
+    padding: 11px 30px 14px 10px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.25);
 }
