@@ -4,13 +4,13 @@
 .no-gutters .col {
     padding-right: 0;
     padding-left: 0;
-    height: 280px;
+    height: 180px;
 }
 
 .no-gutters>.col, .no-gutters>[class*=col-] {
     padding-right: 0;
     padding-left: 0;
-    height: 280px;
+    height: 180px;
 }
 
 /* Colours */
@@ -98,7 +98,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 480px;
+    min-height: 340px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -136,11 +136,11 @@ header {
 #nav li {
     font-size: 15px;
     padding: 0;
-    height: 200px;
+    height: 160px;
 }
 
 .menuitem {
-    height: 160px;
+    height: 120px;
     text-align: center;
     padding: 0;
 }
@@ -149,7 +149,7 @@ header {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 160px;
+    height: 120px;
 }
 
 .menuitem a i {
@@ -174,7 +174,7 @@ header {
 
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.3);
-    height: 200px;
+    height: 160px;
 
 }
 
