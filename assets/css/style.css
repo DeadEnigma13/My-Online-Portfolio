@@ -4,13 +4,13 @@
 .no-gutters .col {
     padding-right: 0;
     padding-left: 0;
-    height: 180px;
+    height: 240px;
 }
 
 .no-gutters>.col, .no-gutters>[class*=col-] {
     padding-right: 0;
     padding-left: 0;
-    height: 180px;
+    height: 240px;
 }
 
 /* Colours */
@@ -119,7 +119,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 340px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -157,7 +157,6 @@ header {
 #nav li {
     font-size: 15px;
     padding: 0;
-    height: 160px;
 }
 
 .menuitem {
@@ -260,4 +259,39 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/* Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key, 
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;  
+}
+
+.personal-info-item .key p, 
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: bold;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
