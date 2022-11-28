@@ -53,6 +53,14 @@
     background-color: #5e5e5e;
 }
 
+.ui-menu-color-interests {
+    background-color: #8bd6f3;
+}
+
+.ui-menu-color-github {
+    background-color: #8144d6;
+}
+
 .bg-html {
     background-color: rgb(255,140,25);
 }
